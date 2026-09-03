@@ -1,82 +1,50 @@
-# GitHub Template Repository
+# Luis Baeza — Personal Portfolio
 
-Welcome to the GitHub template repository for the **courses (CS3361, CS3365)**! This template serves as a starting point for your first assignment of creating and deploying your portfolio. Follow the instructions below to download, customize, and push your work to your own GitHub repository.
+## Description
 
----
+A personal portfolio website built for CS 3365 (Software Engineering, Fall 2026),
+Assignment 1. The site includes a home/introduction, an About Me section, a Skills
+section (technical, academic, and professional), and a Projects page. The main
+purpose of the assignment is to demonstrate a real Git and GitHub development
+workflow: feature branches, incremental commits, merges into `main`, and
+deployment with GitHub Pages.
 
-## 📂 Repository Structure
-The template includes the following structure:
+## Technologies Used
+
+- HTML5
+- CSS3 (internal stylesheets)
+- [Font Awesome](https://fontawesome.com/) for icons
+- Git and GitHub for version control
+- GitHub Pages for deployment
+
+## Live Site
+
+Deployed with GitHub Pages:
+**https://luisbaezacruz.github.io/create_website/**
+
+## Repository Structure
 
 ```
-📦create_website
- ┣ 📂files/         # Add your CV PDF inside this folder
- ┣ 📂images/        # Add your image inside this folder
- ┣ projects.html    # Update this file to add your own project details
- ┣ index.html       # Update this file for the main page of your portfolio
- ┣ 📜README.md      # Project instructions and information
- ┗ 📜LICENSE        # Licensing information
+create_website
+ ┣ files/          # CV PDF
+ ┣ images/         # Profile picture and logos
+ ┣ index.html      # Home, About Me, and Skills sections
+ ┣ projects.html   # Projects page
+ ┣ cv.html         # CV page
+ ┣ README.md       # This file
+ ┗ LICENSE         # MIT License
 ```
 
----
+## Viewing the Project
 
-## 🚀 Getting Started
+**Online:** open the GitHub Pages link above in any web browser.
 
-### 1. **Clone or Download This Repository**  
-Clone the repository to your local machine:
-```bash
-git clone https://github.com/MaazAmjad/create_website.git
-```
-Alternatively, download it as a ZIP file and extract it.
-
----
-
-### 2. **Update Your Information**  
-Make the following changes:
-- Replace placeholder information (e.g., `Your Name`, `Project Title`) with your details.
-- Add your project code and any required files in the respective folders.
-
----
-
-### 3. **Create Your GitHub Repository**  
-1. Log in to your GitHub account.  
-2. Create a new repository (**public** unless otherwise specified).  
-3. Copy the repository URL for use in the next step.
-
----
-
-### 4. **Push Your Changes to Your Repository**  
-Run the following commands to upload your project to your new repository:
+**Locally:**
 
 ```bash
-# Initialize a new Git repository
-git init
-
-# Stage all changes
-git add .
-
-# Commit your changes
-git commit -m "Initial commit"
-
-# Set the main branch
-git branch -M main
-
-# Add the remote repository
-git remote add origin <your-repo-url>
-
-# Push changes to GitHub
-git push -u origin main
+git clone https://github.com/LuisBaezaCruz/create_website.git
+cd create_website
 ```
 
----
-
-## 📝 Submission Instructions  
-Once you have pushed your work to GitHub, submit the repository link as per the instructions provided in the course.
-
----
-
-### ⚖️ License  
-This project template is licensed under the [MIT License](LICENSE).
-
----
-
-Celebrate and enjoy your coding experience! 🚀
+Then open `index.html` in a web browser (double-click the file, or use a local
+server such as `python -m http.server`).
