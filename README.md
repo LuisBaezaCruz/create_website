@@ -1,21 +1,23 @@
-# Luis Baeza — Personal Portfolio
+# Luis Baeza: Personal Portfolio / CS 3365 / FALL 2026
 
 ## Description
 
-A personal portfolio website built for CS 3365 (Software Engineering, Fall 2026),
-Assignment 1. The site includes a home/introduction, an About Me section, a Skills
-section (technical, academic, and professional), and a Projects page. The main
-purpose of the assignment is to demonstrate a real Git and GitHub development
-workflow: feature branches, incremental commits, merges into `main`, and
-deployment with GitHub Pages.
+ASSIGNMENT 1:
+
+The site includes an About Me section, a Skills section (technical, academic, 
+and professional), a Projects and CV page. The main purpose of the assignment 
+is to demonstrate a real Git and GitHub development workflow: commits, merges, push,
+pull, etc.
 
 ## Technologies Used
 
-- HTML5
-- CSS3 (internal stylesheets)
-- [Font Awesome](https://fontawesome.com/) for icons
-- Git and GitHub for version control
+- HTML
+- Git and GitHub
 - GitHub Pages for deployment
+
+## GitHub Repo
+
+**https://github.com/LuisBaezaCruz/create_website**
 
 ## Live Site
 
@@ -27,24 +29,13 @@ Deployed with GitHub Pages:
 ```
 create_website
  ┣ files/          # CV PDF
- ┣ images/         # Profile picture and logos
+ ┣ images/         # Profile picture and ttu logo
  ┣ index.html      # Home, About Me, and Skills sections
  ┣ projects.html   # Projects page
  ┣ cv.html         # CV page
  ┣ README.md       # This file
- ┗ LICENSE         # MIT License
 ```
 
 ## Viewing the Project
 
 **Online:** open the GitHub Pages link above in any web browser.
-
-**Locally:**
-
-```bash
-git clone https://github.com/LuisBaezaCruz/create_website.git
-cd create_website
-```
-
-Then open `index.html` in a web browser (double-click the file, or use a local
-server such as `python -m http.server`).
