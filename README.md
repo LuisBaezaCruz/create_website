@@ -4,10 +4,9 @@
 
 ASSIGNMENT 1:
 
-The site includes an About Me section, a Skills section (technical, academic, 
-and professional), a Projects and CV page. The main purpose of the assignment 
-is to demonstrate a real Git and GitHub development workflow: commits, merges, push,
-pull, etc.
+The site includes an About Me section, a Skills section, a Projects and CV page. The main purpose of the assignment 
+is to demonstrate a Git and GitHub development workflow: commits, merges, push,
+pull, etc. 
 
 ## Technologies Used
 
